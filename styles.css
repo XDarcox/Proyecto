@@ -1,0 +1,57 @@
+/* styles.css - Additional friendly styling complements Bootstrap defaults */
+
+body {
+    background: #f0f8ff; /* Light, friendly, soft blue background */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+/* Constrain form max width and give breathing room */
+form#price-form {
+    max-width: 400px;
+    box-shadow: 0 6px 18px rgba(100, 150, 230, 0.2);
+    border-radius: 12px;
+}
+
+/* Headings style */
+h1 {
+    font-weight: 700;
+    color: #1a73e8; /* Friendly, trustworthy blue */
+}
+
+/* Button icon spacing */
+button > .material-icons {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+/* Result text styling */
+#result {
+    font-weight: 600;
+    color: #155724;
+    background: #d4edda; /* Soft green alert background */
+    border: 1px solid #c3e6cb;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    body {
+        padding: 0.5rem;
+    }
+    form#price-form {
+        box-shadow: none;
+        border-radius: 8px;
+        padding: 1rem;
+    }
+}
+
